@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/logo.jpg" type="img.png" >
+    <link rel="icon" href="img/icon.png" type="img.png" >
     <title>To Do List</title>
 </head>
 <body>
     <div class="container">
         <div class="form-box">
-            <h2>To-Do List</h2>
+            <h2 style="text-align: center;">To-Do List <img src="img/icon.png" width="30px"></h2>
             <div class="text-container">
-                <input type="text" placeholder="Enter your goals">
-                <button>ADD</button>
+                <input type="text" id="input-box" placeholder="Enter your goals">
+                <button onclick="addTask()">ADD</button>
             </div>
            
-            <div class="list-container">
-                hope this will work
-            </div>
+            <ul class="list-container">
+                <!-- <li class="checked">task 1</li>
+                <li>task 2</li>
+                <li>task 3</li> -->
+            </ul>
         </div>
     </div>
     <script src="script.js"></script>
